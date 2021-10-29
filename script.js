@@ -1,0 +1,1 @@
+var matn1btn = document.getElementById('matn1btn');var popup = document.getElementById('popup');var popupclose = document.getElementById('popupclose');matn1btn.onclick = function () {    popup.style.display = 'inherit';}popupclose.onclick = function () {    popup.style.display = 'none';}

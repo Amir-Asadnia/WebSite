@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Samim';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/Samim.eot');
+    src: url('./font/Samim.eot?#iefix') format('embedded-opentype'),
+    url('./font/Samim.woff2') format('woff2'),
+    url('./font/Samim.woff') format('woff'),
+    url('./font/Samim.ttf') format('truetype');
+}
+
+body {
+    padding: 0;margin: 0;direction: rtl !important;background-color: #fff;text-decoration: none;list-style: none;
+}
+* {
+    font-family: Samim !important;
+}
+/*@font-face {*/
+/*    src: url(font/IRANSans.ttf);  font-family: 'iransans';*/
+/*}*/
+/*@font-face {*/
+/*    src: url(font/IRANSansLight.ttf);  font-family: 'light';*/
+/*}*/
+/*@font-face {*/
+/*    src: url(font/IRANSansBold.ttf);  font-family: 'bold';*/
+/*}*/
+/*@font-face {*/
+/*    src: url(font/IRANSansUltraLight.ttf);  font-family: 'ultra';*/
+/*}*/
+/*@font-face {*/
+/*    src: url(font/IRANSansMedium.ttf);  font-family: 'medium';*/
+/*}*/
+.custom_container{
+    padding-right: 38%!important;padding-top: 8%;border-radius: 3px;
+}
+.custom_container_post{
+    padding-right: 25.5%!important;padding-left: 0 !important;padding-top: 2%;border-radius: 3px;
+}
+.custom_container_reply{
+    padding-right: 28.5%!important;padding-left: 0 !important;padding-top: 8%;border-radius: 3px;
+}
+.ADDmininputLOG {
+    width: 50%;position: absolute;top: 0;margin-top: 10%;margin-right: 24%;
+}
+.boxfader{
+    width: 97%;height: 600px;margin: 20px auto;text-align: center;border-radius: 10px;box-shadow: 2px 2px 10px 2px #ccc;
+}
+.ADDmininputLOG input {
+    width: 100%;padding: 9px;margin-top: 15px;border: none;border-bottom: 1px solid #eee;font-size: 16px;
+}
+.ADDmininputLOG button {
+    padding: 10px;width: 100%;background: #239b56;border: none;box-shadow: 2px 2px 10px #27ae60;color: #fff;font-size: 17px;cursor: pointer;margin: 25px auto;border-radius: 20px;
+}
+.boxfather {
+    width: 100%;height: 100%;
+}
+.rightbox {
+    float: right;width: 19%;height: 892px;border-left: 1px solid #ccc;background: none;font-family: Samim;
+    background-image: linear-gradient(to right top, #dd76b0, #d180c2, #c18ad1, #b094dd, #9d9de4, #85a1e5, #6da5e3, #55a8de, #2aa7d1, #00a5bf, #00a1aa, #039c93);
+}
+.leftbox {
+    float: left;width: 81%;height: 100%;background: #f4f6f7;font-size: 14px;
+}
+.rightbox a {
+    background: rgba(0, 123, 255, 0.6);border-color: #ffffff;text-decoration: none;padding-right: 10px!important;font-size: 13px;font-family: Samim;
+}
+.rightbox a:hover{
+    background: #0071eb;border: 1px solid #ffffff;text-decoration: none;box-shadow:0 0 0 .2rem rgba(38,143,255,.5); !important;
+}
+
+.rightbox a.btndanger{
+    background: rgba(234, 26, 68, 0.82);border-color: #ffffff;text-decoration: none;padding-right: 10px!important;font-size: 13px;font-family: Samim;
+}
+.rightbox a.btndanger:hover{
+    background: rgb(234, 26, 68);border: 1px solid #ffffff;text-decoration: none;box-shadow:0 0 0 .2rem rgba(244, 39, 87, 0.55); !important;
+}
+.rightbox a.btndanger:active,.rightbox a.btndanger:focus{
+    background: rgb(234, 26, 68);border: 1px solid #ffffff;text-decoration: none;box-shadow:0 0 0 .2rem rgba(244, 39, 87, 0.55); !important;
+}
+
+.rightbox p {
+    text-align: center!important;color: #fff;background: none;padding: 8px;margin-top: 1.5rem;margin-bottom: 0rem !important;font-size: 14px;
+}
+.rightbox li {
+    padding: 10px!important;
+}
+.alertdanger {
+    width: 100%;height: 50px;line-height: 50px;background: #dc143c;box-shadow: 2px 2px 10px #dc143c;font-size: 13px;color: #fff;border-radius: 3px;
+}
+.alertwarning {
+    width: 100%;height: 50px;line-height: 50px;background: #ff6932;box-shadow: 2px 2px 10px #ff6932;font-size: 13px;color: #fff;border-radius: 3px;
+}
+.alertinfolog {
+    width: 100%;height: 50px;line-height: 50px;background: #31b0d5;box-shadow: 2px 2px 10px #31b0d5;font-size: 13px;color: #fff;border-radius: 3px;
+}
